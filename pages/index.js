@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Link from "next/link";
 import Header from "../components/Header";
-import Footer from '../components/Footer';
+import ClickForMore from "../components/ClickForMore";
 
 // styles
 import styles from "../styles/Home.module.css";
@@ -21,7 +21,7 @@ export default function Home() {
         <Link href="/posts/map" passHref>
           <section className={styles.postPreview}>
             <h2>全国灾害统计地图</h2>
-            <small>发布于 2022-05-12</small>
+            <small>发布于 2022-05-12</small>{" | "}<ClickForMore />
           </section>
         </Link>
         <hr />
@@ -29,7 +29,7 @@ export default function Home() {
           <section className={styles.postPreview}>
             <h2>Social OjO 正式成立</h2>
             <p>平台介绍、期望及使命</p>
-            <small>发布于 2022-05-12</small>
+            <small>发布于 2022-05-12</small>{" | "}<ClickForMore />
           </section>
         </Link>
       </main>
