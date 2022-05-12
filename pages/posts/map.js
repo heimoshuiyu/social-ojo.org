@@ -110,7 +110,7 @@ export default function Init() {
             </Link>
             <Link href="https://umap.openstreetmap.fr/en/map/untitled-map_758141#4/41.97/106.83" passHref>
               <div>
-                <h3>各省洪涝灾害地图</h3>
+                <h3>各省洪涝旱灾地图</h3>
                 <small>
                   <Copyright />
                   Jade, Cherry, & Mia

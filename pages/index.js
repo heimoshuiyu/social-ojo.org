@@ -18,17 +18,17 @@ export default function Home() {
       <Header></Header>
 
       <main className={styles.container}>
-        <Link href="/posts/map" passHref>
-          <section className={styles.postPreview}>
-            <h2>全国灾害统计地图</h2>
-            <small>发布于 2022-05-12</small>{" | "}<ClickForMore />
-          </section>
-        </Link>
-        <hr />
         <Link href="/posts/init" passHref>
           <section className={styles.postPreview}>
             <h2>Social OjO 正式成立</h2>
             <p>平台介绍、期望及使命</p>
+            <small>发布于 2022-05-12</small>{" | "}<ClickForMore />
+          </section>
+        </Link>
+        <hr />
+        <Link href="/posts/map" passHref>
+          <section className={styles.postPreview}>
+            <h2>全国灾害统计地图</h2>
             <small>发布于 2022-05-12</small>{" | "}<ClickForMore />
           </section>
         </Link>
