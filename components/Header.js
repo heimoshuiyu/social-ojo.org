@@ -9,7 +9,7 @@ export default function Header({ titleText }) {
     <>
       <nav className={styles.toolbar}>
         <strong>
-          <Link href="/">Social OJO</Link>
+          <Link href="/">Social OjO</Link>
         </strong>
         <div className={styles.nav}>
           <span>
@@ -20,7 +20,7 @@ export default function Header({ titleText }) {
           </span>
         </div>
       </nav>
-      <h1 className={styles.title}>{titleText || "Social OJO"}</h1>
+      <h1 className={styles.title}>{titleText || "Social OjO"}</h1>
       <header
         className={styles.header}
         style={{

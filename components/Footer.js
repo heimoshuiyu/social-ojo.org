@@ -7,7 +7,7 @@ export default function Footer() {
     <>
       <footer className={styles.footer}>
         <small>
-          ©2022-2023 Social OJO. All Rights Reserved.
+          ©2022-2023 Social OjO. All Rights Reserved.
         </small>
       </footer>
     </>
