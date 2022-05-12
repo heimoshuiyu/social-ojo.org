@@ -11,7 +11,7 @@ export default function Home() {
     <div>
       <Head>
         <title>主页 - Social Eye</title>
-        <meta name="description" content="Social eye 官方网站" />
+        <meta name="description" content="Social OjO 官方网站" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -27,7 +27,7 @@ export default function Home() {
         <hr />
         <Link href="/posts/init" passHref>
           <section className={styles.postPreview}>
-            <h2>Social OJO 正式成立</h2>
+            <h2>Social OjO 正式成立</h2>
             <p>平台介绍、期望及使命</p>
             <small>发布于 2022-05-12</small>
           </section>

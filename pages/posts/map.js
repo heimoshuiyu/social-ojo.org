@@ -21,8 +21,8 @@ export default function Init() {
   return (
     <div>
       <Head>
-        <title>Social OJO 正式成立 - Social Eye</title>
-        <meta name="description" content="Social eye 官方网站" />
+        <title>Social OjO 正式成立 - Social OjO</title>
+        <meta name="description" content="Social OjO 官方网站" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header></Header>
@@ -40,7 +40,7 @@ export default function Init() {
                 <h3>各省受台风影响地图</h3>
                 <small>
                   <Copyright />
-                  吴懿鹏、林思源
+                  吴懿鹏 & 林思源
                 </small>
                 <Image src={typhoonMapPreview} />
               </div>
@@ -123,7 +123,7 @@ export default function Init() {
                 <h3>各省交通事故地图</h3>
                 <small>
                   <Copyright />
-                  Jade, Cherry, & Mia
+                  Carolyn, Julianne, & Selina
                 </small>
                 <Image src={trafficAccidentsMapPreview} />
               </div>

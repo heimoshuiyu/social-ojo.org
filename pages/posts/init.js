@@ -1,17 +1,16 @@
 import Head from "next/head";
-import Link from "next/link";
 import Header from "../../components/Header";
 
 import styles from "../../styles/Post.module.css";
 import homeStyles from "../../styles/Home.module.css";
 
 export default function Init() {
-  const title = "Social OJO 正式成立";
+  const title = "Social OjO 正式成立";
   return (
     <div>
       <Head>
         <title>{title} - Social Eye</title>
-        <meta name="description" content="Social eye 官方网站" />
+        <meta name="description" content="Social OjO 官方网站" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header></Header>
