@@ -80,7 +80,7 @@ export default function Init() {
             </Link>
             <Link href="https://umap.openstreetmap.fr/zh/map/geological-disasters-in-mainland-china_758447#4/39.44/104.15" passHref>
               <div>
-                <h3>各省突发地址灾害地图</h3>
+                <h3>各省突发地质灾害地图</h3>
                 <small>
                   <Copyright />
                   Sherry, Ivy, & Rika

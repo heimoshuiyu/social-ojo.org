@@ -39,12 +39,14 @@ export default function Init() {
           <p>
             这只是漫漫防灾长路的一步，不是第一步，也肯定不是最后一步。请批评，指正，和参与。
           </p>
-          <p>
+          <p style={{
+            textAlign: "right",
+          }}>
             黄匡忠
             <br />
             北师港浸大
             <br />
-            2008+14, 05,12。
+            2008+14, 05,12
             <br />
           </p>
         </section>
