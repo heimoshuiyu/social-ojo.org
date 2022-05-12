@@ -40,7 +40,7 @@ export default function Init() {
                 <h3>各省受台风影响地图</h3>
                 <small>
                   <Copyright />
-                  吴懿鹏 & 林思源
+                  吴懿鹏 林思源
                 </small>
                 <Image src={typhoonMapPreview} />
               </div>
@@ -53,17 +53,17 @@ export default function Init() {
                 <h3>各省干旱灾害地图</h3>
                 <small>
                   <Copyright />
-                  Keer ZHENG & Mengjia ZHENG
+                  郑可儿  郑梦佳
                 </small>
                 <Image src={doughtMapPreview} />
               </div>
             </Link>
             <Link href="#" passHref>
               <div>
-                <h3>各省雪灾影响地图</h3>
+                <h3>各省低温冰雪灾害地图</h3>
                 <small>
                   <Copyright />
-                  Shuyi GUO
+                  陈熙瑶 郭舒怡 尚阳
                 </small>
                 <Image src={snowMapPreview} />
               </div>
@@ -73,7 +73,7 @@ export default function Init() {
                 <h3>各省工伤统计地图</h3>
                 <small>
                   <Copyright />
-                  Stanley, Lori, & Kristin.
+                  姚婉谊 战云英 易佳莹
                 </small>
                 <Image src={workInjureMapPreview} />
               </div>
@@ -83,7 +83,7 @@ export default function Init() {
                 <h3>各省突发地质灾害地图</h3>
                 <small>
                   <Copyright />
-                  Sherry, Ivy, & Rika
+                  孙晓盈 邓忻玥 庞颖彤
                 </small>
                 <Image src={geologicalDisasterMapPreview} />
               </div>
@@ -93,7 +93,7 @@ export default function Init() {
                 <h3>新中国成立后各省地震数据</h3>
                 <small>
                   <Copyright />
-                  陈九如, 刘梦蝶, & 周鲲鹏
+                  周鲲鹏 刘梦蝶 陈九如
                 </small>
                 <Image src={earthquakeMapPreview} />
               </div>
@@ -103,17 +103,17 @@ export default function Init() {
                 <h3>各省森林火灾地图</h3>
                 <small>
                   <Copyright />
-                  Jessie, Peggy, & Cindy
+                  施适雨 黄珏晞 易欣宇
                 </small>
                 <Image src={forestFireMapPreview} />
               </div>
             </Link>
             <Link href="https://umap.openstreetmap.fr/en/map/untitled-map_758141#4/41.97/106.83" passHref>
               <div>
-                <h3>各省洪涝旱灾地图</h3>
+                <h3>各省洪涝灾害地图</h3>
                 <small>
                   <Copyright />
-                  Jade, Cherry, & Mia
+                  杨思怡 张芷晴 马玉
                 </small>
                 <Image src={floodsAndDroughtsMapPreview} />
               </div>
@@ -123,7 +123,7 @@ export default function Init() {
                 <h3>各省交通事故地图</h3>
                 <small>
                   <Copyright />
-                  Carolyn, Julianne, & Selina
+                  朱诗琪 李昕玥 苗诗扬
                 </small>
                 <Image src={trafficAccidentsMapPreview} />
               </div>
