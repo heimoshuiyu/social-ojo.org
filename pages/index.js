@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>主页 - Social Eye</title>
+        <title>主页 - Social OjO</title>
         <meta name="description" content="Social OjO 官方网站" />
         <link rel="icon" href="/favicon.ico" />
       </Head>

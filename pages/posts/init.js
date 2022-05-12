@@ -9,7 +9,7 @@ export default function Init() {
   return (
     <div>
       <Head>
-        <title>{title} - Social Eye</title>
+        <title>{title} - Social OjO</title>
         <meta name="description" content="Social OjO 官方网站" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
