@@ -4,7 +4,11 @@ import Link from "next/link";
 // images
 import headerBackground from "../public/typhoon.png";
 
-export default function Header({ titleText }) {
+export default function Header({ titleText, propBG }) {
+  let bgsrc = headerBackground.src;
+  if (propBG) {
+    bgsrc = propBG.src;
+  }
   return (
     <>
       <nav className={styles.toolbar}>
@@ -24,7 +28,7 @@ export default function Header({ titleText }) {
       <header
         className={styles.header}
         style={{
-          backgroundImage: `url('${headerBackground.src}')`,
+          backgroundImage: `url('${bgsrc}')`,
         }}
       >
       </header>
