@@ -87,8 +87,6 @@ export default function LawPage() {
               </div>
             </Link>
 
-            // [TODO] group 5
-
             <Link
               href="#"
               passHref
