@@ -3,6 +3,8 @@ import Link from "next/link";
 import Header from "../components/Header";
 import ClickForMore from "../components/ClickForMore";
 
+import mainbg from "../public/mainbg.webp";
+
 // styles
 import styles from "../styles/Home.module.css";
 
@@ -15,7 +17,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Header></Header>
+      <Header propBG={mainbg}></Header>
 
       <main className={styles.container}>
         <Link href="/posts/init" passHref>
@@ -28,7 +30,7 @@ export default function Home() {
         <hr />
         <Link href="/posts/law" passHref>
           <section className={styles.postPreview}>
-            <h2>法律案件分析</h2>
+            <h2>社会管理法律</h2>
             <p>小组研讨真实法律案件的案情和判决</p>
             <small>发布于 2022-07-06</small>{" | "}<ClickForMore />
           </section>
