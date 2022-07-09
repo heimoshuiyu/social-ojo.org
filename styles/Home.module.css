@@ -7,5 +7,12 @@
 .postPreview {
   padding: 0.5rem;
   border-radius: 1rem;
+}
+
+.postPreviewWrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
   cursor: pointer;
 }

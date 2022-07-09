@@ -7,6 +7,9 @@ import mainbg from "../public/mainbg.webp";
 // styles
 import styles from "../styles/Home.module.css";
 
+import bg486 from "../public/486.webp";
+import bgmap from "../public/typhoon.png";
+
 export default function Home() {
   return (
     <div>
@@ -31,6 +34,7 @@ export default function Home() {
           title="社会管理法律"
           description="小组研讨真实法律案件的案情和判决"
           date="2022-07-06"
+          bg={bg486}
         />
         <hr />
         <PostPreview
@@ -38,6 +42,7 @@ export default function Home() {
           title="全国灾害统计地图"
           description=""
           date="2022-05-12"
+          bg={bgmap}
         />
       </main>
     </div>
