@@ -1,7 +1,6 @@
 import Head from "next/head";
-import Link from "next/link";
 import Header from "../components/Header";
-import ClickForMore from "../components/ClickForMore";
+import PostPreview from "../components/PostPreview";
 
 import mainbg from "../public/mainbg.webp";
 
@@ -20,30 +19,27 @@ export default function Home() {
       <Header propBG={mainbg}></Header>
 
       <main className={styles.container}>
-        <Link href="/posts/init" passHref>
-          <section className={styles.postPreview}>
-            <h2>Social OjO 正式成立</h2>
-            <p>平台介绍、期望及使命</p>
-            <small>发布于 2022-05-12</small>{" | "}<ClickForMore />
-          </section>
-        </Link>
+        <PostPreview
+          href="/posts/init"
+          title="Social OjO 正式成立"
+          description="平台介绍、期望及使命"
+          date="2022-05-12"
+        />
         <hr />
-        <Link href="/posts/law" passHref>
-          <section className={styles.postPreview}>
-            <h2>社会管理法律</h2>
-            <p>小组研讨真实法律案件的案情和判决</p>
-            <small>发布于 2022-07-06</small>{" | "}<ClickForMore />
-          </section>
-        </Link>
+        <PostPreview
+          href="/posts/law"
+          title="社会管理法律"
+          description="小组研讨真实法律案件的案情和判决"
+          date="2022-07-06"
+        />
         <hr />
-        <Link href="/posts/map" passHref>
-          <section className={styles.postPreview}>
-            <h2>全国灾害统计地图</h2>
-            <small>发布于 2022-05-12</small>{" | "}<ClickForMore />
-          </section>
-        </Link>
+        <PostPreview
+          href="/posts/map"
+          title="全国灾害统计地图"
+          description=""
+          date="2022-05-12"
+        />
       </main>
     </div>
   );
 }
-
