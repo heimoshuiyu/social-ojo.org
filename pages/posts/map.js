@@ -112,6 +112,11 @@ export default function Init() {
                   <Copyright />
                   孙晓盈 邓忻玥 庞颖彤
                 </small>
+                <DownloadReport
+                  URL={
+                    "https://social-ojo-1301796004.cos.ap-guangzhou.myqcloud.com/files/EMPS_Geological%20disasters%20in%20Mainland%20China.docx"
+                  }
+                />
                 <Image src={geologicalDisasterMapPreview} />
               </div>
             </Link>
