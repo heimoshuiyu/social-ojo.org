@@ -4,7 +4,7 @@ function DownloadReport({ URL }) {
   return (
     <p>
       <Link passHref href={URL}>
-        <button>下载报告</button>
+        <button>Report (Eng)</button>
       </Link>
     </p>
   );
