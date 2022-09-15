@@ -29,7 +29,7 @@ export default function Init() {
       <Header></Header>
       <main className={homeStyles.container}>
         <section className={styles.post}>
-          <h2>全国灾害统计地图</h2>
+          <h2>全国灾害统计地图 (Disasters Map of China)</h2>
           <small>发布于 2022-05-12</small>
           <hr />
           <div className={styles.grid}>
@@ -38,7 +38,7 @@ export default function Init() {
               passHref
             >
               <div>
-                <h3>各省受台风影响地图</h3>
+                <h3>各省受台风影响地图 (Typhoons Map)</h3>
                 <small>
                   <Copyright />
                   吴懿鹏 林思源
@@ -56,7 +56,7 @@ export default function Init() {
               passHref
             >
               <div>
-                <h3>各省干旱灾害地图</h3>
+                <h3>各省干旱灾害地图 (Drought Map)</h3>
                 <small>
                   <Copyright />
                   郑可儿 郑梦佳
@@ -71,7 +71,7 @@ export default function Init() {
             </Link>
             <Link href="#" passHref>
               <div>
-                <h3>各省低温冰雪灾害地图</h3>
+                <h3>各省低温冰雪灾害地图 (Low Temprature Map)</h3>
                 <small>
                   <Copyright />
                   陈熙瑶 郭舒怡 尚阳
@@ -89,7 +89,7 @@ export default function Init() {
               passHref
             >
               <div>
-                <h3>各省工伤统计地图</h3>
+                <h3>各省工伤统计地图 (Work Injury Map)</h3>
                 <small>
                   <Copyright />
                   姚婉谊 战云英 易佳莹
@@ -107,7 +107,7 @@ export default function Init() {
               passHref
             >
               <div>
-                <h3>各省突发地质灾害地图</h3>
+                <h3>各省突发地质灾害地图 (Geological Disters Map)</h3>
                 <small>
                   <Copyright />
                   孙晓盈 邓忻玥 庞颖彤
@@ -125,7 +125,7 @@ export default function Init() {
               passHref
             >
               <div>
-                <h3>新中国成立后各省地震数据</h3>
+                <h3>新中国成立后各省地震数据 (Earthquake Map)</h3>
                 <small>
                   <Copyright />
                   周鲲鹏 刘梦蝶 陈九如
@@ -143,7 +143,7 @@ export default function Init() {
               passHref
             >
               <div>
-                <h3>各省森林火灾地图</h3>
+                <h3>各省森林火灾地图 (Forest Fire Map)</h3>
                 <small>
                   <Copyright />
                   施适雨 黄珏晞 易欣宇
@@ -161,7 +161,7 @@ export default function Init() {
               passHref
             >
               <div>
-                <h3>各省洪涝灾害地图</h3>
+                <h3>各省洪涝灾害地图 (Floods andd Droughts Map)</h3>
                 <small>
                   <Copyright />
                   杨思怡 张芷晴 马玉
@@ -179,7 +179,7 @@ export default function Init() {
               passHref
             >
               <div>
-                <h3>各省交通事故地图</h3>
+                <h3>各省交通事故地图 (Traffic Accidents Map)</h3>
                 <small>
                   <Copyright />
                   朱诗琪 李昕玥 苗诗扬

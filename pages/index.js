@@ -39,7 +39,7 @@ export default function Home() {
         <hr />
         <PostPreview
           href="/posts/map"
-          title="全国灾害统计地图"
+          title="全国灾害统计地图 (Disasters Map of China)"
           description=""
           date="2022-05-12"
           bg={bgmap}
