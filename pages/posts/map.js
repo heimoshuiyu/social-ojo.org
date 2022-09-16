@@ -69,7 +69,7 @@ export default function Init() {
                 <Image src={doughtMapPreview} />
               </div>
             </Link>
-            <Link href="#" passHref>
+            <Link href="https://social-ojo-1301796004.cos.ap-guangzhou.myqcloud.com/images/snow.jpg" passHref>
               <div>
                 <h3>各省低温冰雪灾害地图 (Low Temprature Map)</h3>
                 <small>
