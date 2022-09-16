@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Link from "next/link";
 import Header from "../../components/Header";
 import Copyright from "../../components/Copyright";
 import DownloadReport from "../../components/DownloadReport";
@@ -33,9 +32,9 @@ export default function Init() {
           <small>发布于 2022-05-12</small>
           <hr />
           <div className={styles.grid}>
-            <Link
+            <a
               href="https://umap.openstreetmap.fr/zh/map/map_761199#4/36.24/122.08"
-              passHref
+              target="_blank"
             >
               <div>
                 <h3>各省受台风影响地图 (Typhoons Map)</h3>
@@ -50,10 +49,10 @@ export default function Init() {
                 />
                 <Image src={typhoonMapPreview} />
               </div>
-            </Link>
-            <Link
+            </a>
+            <a
               href="https://umap.openstreetmap.fr/zh/map/drought-disasters-in-chinas-provinces-from-2014-to_758463#5/34.940/109.248"
-              passHref
+              target="_blank"
             >
               <div>
                 <h3>各省干旱灾害地图 (Drought Map)</h3>
@@ -68,8 +67,11 @@ export default function Init() {
                 />
                 <Image src={doughtMapPreview} />
               </div>
-            </Link>
-            <Link href="https://social-ojo-1301796004.cos.ap-guangzhou.myqcloud.com/images/snow.jpg" passHref>
+            </a>
+            <a
+              href="https://social-ojo-1301796004.cos.ap-guangzhou.myqcloud.com/images/snow.jpg"
+              target="_blank"
+            >
               <div>
                 <h3>各省低温冰雪灾害地图 (Low Temprature Map)</h3>
                 <small>
@@ -83,10 +85,10 @@ export default function Init() {
                 />
                 <Image src={snowMapPreview} />
               </div>
-            </Link>
-            <Link
+            </a>
+            <a
               href="https://umap.openstreetmap.fr/en/map/gis_756551#5/37.020/103.623"
-              passHref
+              target="_blank"
             >
               <div>
                 <h3>各省工伤统计地图 (Work Injury Map)</h3>
@@ -101,10 +103,10 @@ export default function Init() {
                 />
                 <Image src={workInjureMapPreview} />
               </div>
-            </Link>
-            <Link
+            </a>
+            <a
               href="https://umap.openstreetmap.fr/zh/map/geological-disasters-in-mainland-china_758447#4/39.44/104.15"
-              passHref
+              target="_blank"
             >
               <div>
                 <h3>各省突发地质灾害地图 (Geological Disters Map)</h3>
@@ -119,10 +121,10 @@ export default function Init() {
                 />
                 <Image src={geologicalDisasterMapPreview} />
               </div>
-            </Link>
-            <Link
+            </a>
+            <a
               href="https://umap.osm.ch/en/map/map_4637#4/41.44/118.21"
-              passHref
+              target="_blank"
             >
               <div>
                 <h3>新中国成立后各省地震数据 (Earthquake Map)</h3>
@@ -137,8 +139,8 @@ export default function Init() {
                 />
                 <Image src={earthquakeMapPreview} />
               </div>
-            </Link>
-            <Link
+            </a>
+            <a
               href="https://umap.openstreetmap.fr/en/map/forest-fires-data-map-of-china-2015-2020_753341#4/35.89/104.24"
               passHref
             >
@@ -155,10 +157,10 @@ export default function Init() {
                 />
                 <Image src={forestFireMapPreview} />
               </div>
-            </Link>
-            <Link
+            </a>
+            <a
               href="https://umap.openstreetmap.fr/en/map/untitled-map_758141#4/41.97/106.83"
-              passHref
+              target="_blank"
             >
               <div>
                 <h3>各省洪涝灾害地图 (Floods andd Droughts Map)</h3>
@@ -173,10 +175,10 @@ export default function Init() {
                 />
                 <Image src={floodsAndDroughtsMapPreview} />
               </div>
-            </Link>
-            <Link
+            </a>
+            <a
               href="http://umap.openstreetmap.fr/en/map/traffic-accidents_756060#4/40.38/107.58"
-              passHref
+              target="_blank"
             >
               <div>
                 <h3>各省交通事故地图 (Traffic Accidents Map)</h3>
@@ -191,7 +193,7 @@ export default function Init() {
                 />
                 <Image src={trafficAccidentsMapPreview} />
               </div>
-            </Link>
+            </a>
           </div>
         </section>
       </main>
