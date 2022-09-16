@@ -9,14 +9,14 @@ import styles from "../../styles/Post.module.css";
 import homeStyles from "../../styles/Home.module.css";
 
 import typhoonMapPreview from "../../public/typhoon.png";
-import doughtMapPreview from "../../public/dought.png";
+import doughtMapPreview from "../../public/dought.jpg";
 import snowMapPreview from "../../public/snow.jpg";
 import workInjureMapPreview from "../../public/workInjury.png";
-import geologicalDisasterMapPreview from "../../public/geological.png";
+import geologicalDisasterMapPreview from "../../public/geological.jpg";
 import earthquakeMapPreview from "../../public/earthquake.png";
 import forestFireMapPreview from "../../public/forestFire.png";
 import floodsAndDroughtsMapPreview from "../../public/floodsAndDroughts.png";
-import trafficAccidentsMapPreview from "../../public/traffic.png";
+import trafficAccidentsMapPreview from "../../public/traffic.jpg";
 
 export default function Init() {
   return (
