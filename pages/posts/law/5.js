@@ -18,7 +18,11 @@ export default function LawPage() {
       <Header propBG={group5bg}></Header>
       <main className={homeStyles.container}>
         <section className={styles.post}>
-          <h2>精神病患者的离婚案例分析</h2>
+          <h2>
+            精神病患者的离婚案例分析
+            <br />
+            Divorce Case Analysis of Mentally Ill Patients
+          </h2>
           <small>发布于 2022-07-06</small>
           <hr />
           <Video

@@ -33,7 +33,11 @@ export default function LawPage() {
           <div className={styles.grid}>
             <Link href="/posts/law/1" passHref>
               <div>
-                <h3>残疾人劳工案例分析</h3>
+                <h3>
+                  残疾人劳工案例分析
+                  <br />
+                  Disabled Labor Case Study
+                </h3>
                 <small>
                   <Copyright />
                   周鲲鹏、郑梦佳、郑可儿
@@ -44,7 +48,11 @@ export default function LawPage() {
 
             <Link href="/posts/law/2" passHref>
               <div>
-                <h3>杀人犯潜逃的重婚案例</h3>
+                <h3>
+                  杀人犯潜逃的重婚案例
+                  <br />
+                  The Case Analysis of Bigamy of Fugitive
+                </h3>
                 <small>
                   <Copyright />
                   李昕玥、朱诗琪、张芷晴
@@ -55,7 +63,11 @@ export default function LawPage() {
 
             <Link href="/posts/law/3" passHref>
               <div>
-                <h3>离婚案例分析</h3>
+                <h3>
+                  离婚案例分析
+                  <br />
+                  Divorce Case Analysis
+                </h3>
                 <small>
                   <Copyright />
                   黄珏晞、施适雨、易欣宇
@@ -66,7 +78,11 @@ export default function LawPage() {
 
             <Link href="/posts/law/4" passHref>
               <div>
-                <h3>针对未成年人的性侵犯案件分析</h3>
+                <h3>
+                  针对未成年人的性侵犯案件分析
+                  <br />
+                  Analysis of Sexual Assault Case against Minors
+                </h3>
                 <small>
                   <Copyright />
                   马玉、杨思怡、梁欣
@@ -77,7 +93,11 @@ export default function LawPage() {
 
             <Link href="/posts/law/5" passHref>
               <div>
-                <h3>精神病患者的离婚案例分析</h3>
+                <h3>
+                  精神病患者的离婚案例分析
+                  <br />
+                  Divorce Case Analysis of Mentally Ill Patients
+                </h3>
                 <small>
                   <Copyright />
                   林思源 吴懿鹏
@@ -88,7 +108,11 @@ export default function LawPage() {
 
             <Link href="/posts/law/6" passHref>
               <div>
-                <h3>离婚法</h3>
+                <h3>
+                  离婚法
+                  <br />
+                  Marriage Law Case Analysis
+                </h3>
                 <small>
                   <Copyright />
                   陈愿妃、张诺清、杨小满
@@ -99,7 +123,12 @@ export default function LawPage() {
 
             <Link href="/posts/law/7" passHref>
               <div>
-                <h3>婚内配偶同性恋行为导致的离婚纠纷案例分析</h3>
+                <h3>
+                  婚内配偶同性恋行为导致的离婚纠纷案例分析
+                  <br />
+                  Analysis of Divorce Disputes caused by Homosexual Behavior of
+                  Spouses in Marriage
+                </h3>
                 <small>
                   <Copyright />
                   陈久如、郑志泓

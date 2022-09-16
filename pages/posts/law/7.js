@@ -18,7 +18,12 @@ export default function LawPage() {
       <Header propBG={group7bg}></Header>
       <main className={homeStyles.container}>
         <section className={styles.post}>
-          <h2>残疾人劳工案例分析</h2>
+          <h2>
+            婚内配偶同性恋行为导致的离婚纠纷案例分析
+            <br />
+            Analysis of Divorce Disputes caused by Homosexual Behavior of
+            Spouses in Marriage
+          </h2>
           <small>发布于 2022-07-06</small>
           <hr />
           <Video

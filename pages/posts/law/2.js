@@ -18,7 +18,11 @@ export default function LawPage() {
       <Header propBG={group2bg}></Header>
       <main className={homeStyles.container}>
         <section className={styles.post}>
-          <h2>杀人犯潜逃的重婚案例</h2>
+          <h2>
+            杀人犯潜逃的重婚案例
+            <br />
+            The Case Analysis of Bigamy of Fugitive
+          </h2>
           <small>发布于 2022-07-06</small>
           <hr />
           <Video

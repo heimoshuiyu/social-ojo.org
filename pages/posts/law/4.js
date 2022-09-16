@@ -18,7 +18,11 @@ export default function LawPage() {
       <Header propBG={group4bg}></Header>
       <main className={homeStyles.container}>
         <section className={styles.post}>
-          <h2>针对未成年人的性侵犯案件分析</h2>
+          <h2>
+            针对未成年人的性侵犯案件分析
+            <br />
+            Analysis of Sexual Assault Case against Minors
+          </h2>
           <small>发布于 2022-07-06</small>
           <hr />
           <Video

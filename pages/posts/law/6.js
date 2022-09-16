@@ -18,7 +18,11 @@ export default function LawPage() {
       <Header propBG={group6bg}></Header>
       <main className={homeStyles.container}>
         <section className={styles.post}>
-          <h2>离婚法</h2>
+          <h2>
+            离婚法
+            <br />
+            Marriage Law Case Analysis
+          </h2>
           <small>发布于 2022-07-06</small>
           <hr />
           <Video

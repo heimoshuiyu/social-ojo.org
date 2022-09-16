@@ -31,8 +31,8 @@ export default function Home() {
         <hr />
         <PostPreview
           href="/posts/law"
-          title="社会管理法律"
-          description="小组研讨真实法律案件的案情和判决"
+          title="社会管理法律 (Social Management Law)"
+          description="小组研讨真实法律案件的案情和判决 Groups discuss facts and verdicts of real legal cases"
           date="2022-07-06"
           bg={bg486}
         />

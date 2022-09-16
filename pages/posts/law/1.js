@@ -18,7 +18,11 @@ export default function LawPage() {
       <Header propBG={group1bg}></Header>
       <main className={homeStyles.container}>
         <section className={styles.post}>
-          <h2>残疾人劳工案例分析</h2>
+          <h2>
+            残疾人劳工案例分析
+            <br />
+            Disabled Labor Case Study
+          </h2>
           <small>发布于 2022-07-06</small>
           <hr />
           <Video
