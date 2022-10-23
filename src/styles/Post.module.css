@@ -1,0 +1,24 @@
+.post {
+  padding-top: 1rem;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 2rem;
+}
+
+.grid {
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(auto-fit, 15rem);
+  justify-content: center;
+}
+
+.grid > * {
+  padding: 0.3rem;
+  cursor: pointer;
+  border-radius: 1rem;
+}
+
+.grid > *:hover {
+  background-color: lightblue;
+  transition: cubic-bezier(1, 0, 0, 1);
+}
