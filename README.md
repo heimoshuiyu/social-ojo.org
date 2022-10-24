@@ -7,6 +7,9 @@
   Gatsby minimal starter
 </h1>
 
+
+好耶！ ![build stats](https://codebuild.ap-southeast-1.amazonaws.com/badges?uuid=eyJlbmNyeXB0ZWREYXRhIjoiM0J2ZDJNWklZVkxBYy9pNXBQUGhTMWZzRmoxK3ZmRVdPcDlCWGwxdy85eExpblJ2NmJBTWdLNHJ3SkcxT1BoYXJLK1h3UUJodDNoaXB2WkRxd05OcldNPSIsIml2UGFyYW1ldGVyU3BlYyI6Ik9EVG9UbDY3amk5bHJiYVciLCJtYXRlcmlhbFNldFNlcmlhbCI6MX0%3D&branch=main) 
+
 ## 🚀 Quick start
 
 1.  **Create a Gatsby site.**
