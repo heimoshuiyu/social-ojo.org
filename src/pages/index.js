@@ -3,6 +3,7 @@ import * as styles from "../styles/Home.module.css"
 import {StaticImage} from "gatsby-plugin-image"
 import Header from "../components/Header"
 import PostPreview from "../components/PostPreview"
+import Footer from "../components/Footer"
 
 const IndexPage = () => {
   return (
@@ -47,6 +48,8 @@ const IndexPage = () => {
           }
         />
       </main>
+
+      <Footer />
     </>
   )
 }
