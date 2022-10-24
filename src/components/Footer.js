@@ -6,7 +6,7 @@ const Footer = () => {
   const data = useStaticQuery(graphql`
 query {
   siteBuildMetadata {
-    buildTime(formatString: "YYYY MMMM DD")
+    buildTime(formatString: "LLLL")
   }
 }
 
