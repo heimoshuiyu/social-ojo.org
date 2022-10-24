@@ -3,6 +3,7 @@ phases:
     install:
         commands:
             - 'touch .npmignore'
+            - 'rm ./package-lock.json'
     pre_build:
         commands:
             - 'npm install'
