@@ -12,9 +12,11 @@ module.exports = {
       },
     },
     {
-      resolve: 'gatsby-plugin-google-analytics',
+      resolve: 'gatsby-plugin-google-gtag',
       options: {
-        trackingId: "G-TVTHN7455T",
+        trackingIds: [
+          "G-TVTHN7455T",
+        ],
       },
     },
     "gatsby-plugin-image",
