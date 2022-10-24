@@ -2,6 +2,7 @@ import * as React from "react"
 import * as styles from "../../styles/Post.module.css"
 import * as homeStyles from "../../styles/Home.module.css"
 import Header from "../../components/Header"
+import Footer from "../../components/Footer"
 import {StaticImage} from "gatsby-plugin-image"
 import Copyright from "../../components/Copyright"
 import DownloadReport from "../../components/DownloadReport"
@@ -200,6 +201,8 @@ const MapPage = () => {
           </div>
         </section>
       </main>
+
+      <Footer />
     </>
   )
 }

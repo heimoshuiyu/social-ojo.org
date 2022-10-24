@@ -1,7 +1,8 @@
 import * as React from "react"
 import Image from "../../components/Image"
 import Header from "../../components/Header"
-import {StaticImage} from "gatsby-plugin-image"
+import Footer from "../../components/Footer"
+import {StaticImage, GatsbyImage} from "gatsby-plugin-image"
 import * as styles from "../../styles/Post.module.css"
 import * as homeStyles from "../../styles/Home.module.css"
 import {Link} from "gatsby"
@@ -37,7 +38,7 @@ const LawPage = () => {
                     <h3>{element.title}<br />{element.titleEn}</h3>
                   </div>
                   <small></small>
-                  <Image name={`group${element.path}bg`} alt="test" />
+                  <GatsbyImage image={Image(`group${element.path}bg`)} alt="test" />
                 </Link>
               })
             }
@@ -45,6 +46,7 @@ const LawPage = () => {
         </section>
       </main>
 
+      <Footer />
     </>
   )
 }

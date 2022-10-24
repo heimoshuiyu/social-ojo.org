@@ -1,8 +1,7 @@
-import * as React from "react"
-import {GatsbyImage, getImage} from "gatsby-plugin-image"
+import {getImage} from "gatsby-plugin-image"
 import {useStaticQuery, graphql} from "gatsby"
 
-const Image = ({name}) => {
+const Image = (name) => {
   const { images: { edges: images } } = useStaticQuery(graphql`
 query {
   images: allFile(filter: {relativeDirectory: {eq: "images"}}) {
@@ -21,9 +20,7 @@ query {
   const propName = name
   const imageData = images.find(({node: {name}}) => name === propName)
   const image = getImage(imageData.node)
-	return (
-    <GatsbyImage image={image} />
-	)
+  return image
 }
 
 export default Image
