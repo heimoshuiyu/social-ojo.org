@@ -4,7 +4,9 @@ phases:
         commands:
             - 'touch .npmignore'
             - 'rm ./package-lock.json'
-            -  'curl -fsSL https://deb.nodesource.com/setup_current.x | bash - && apt-get install -y nodejs'
+            - 'curl -fsSL https://deb.nodesource.com/setup_current.x -o setup_current.x'
+            - 'bash setup_current.x'
+            - 'apt-get install -y nodejs'
     pre_build:
         commands:
             - 'npm install'
