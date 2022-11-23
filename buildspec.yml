@@ -1,11 +1,10 @@
 version: 0.2
 phases:
-    runtime-versions:
-        nodejs: 19
     install:
         commands:
             - 'touch .npmignore'
             - 'rm ./package-lock.json'
+            -  'curl -fsSL https://deb.nodesource.com/setup_current.x | bash - && apt-get install -y nodejs'
     pre_build:
         commands:
             - 'npm install'
